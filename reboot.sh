@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # sent reboot signal
 echo 1 > /proc/sys/kernel/sysrq
