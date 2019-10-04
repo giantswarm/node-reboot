@@ -1,3 +1,5 @@
 FROM alpine:3.9
 
-ENTRYPOINT ["/sbin/reboot"]
+ADD ./reboot.sh /reboot.sh
+
+ENTRYPOINT ["/reboot.sh"]
